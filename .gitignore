@@ -1,0 +1,16 @@
+# k6 outputs
+*.json
+*.csv
+summary-*.html
+
+# Node (if k6 scripts grow shared modules)
+node_modules/
+
+# Filled review documents stay internal
+reviews/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+.env
